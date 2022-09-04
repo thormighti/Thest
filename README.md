@@ -46,14 +46,14 @@ Output format (plain text, JSON, etc.) can now be configured by command line arg
 
 ### Step 1
 
-Create an Api project that can receive HTTP POST and GET requests on /filter?csvUri={<CSV_URI>}.
+Creat an Api prject that can receive HTTP POST and GET requests on /filter?csvUri={<CSV_URI>}.
 The payload response should be a json object as described in Part1
 
 ### Step 2
 
-Now this api should be able to ouput Text, Json, CSV, XML ... 
+Now this api shuld be able to ouput Text, Json, CSV, XML ... 
 Update the API to be able to return JSON or XML formats for the payload response.
 
 ## Final (this step should be the easy one)
 
-We are constantly trying to improve our test. Any constructive feedback (too long, too easy, too vague, missing parts, you wanted to show something else ...) on this test is welcome.
+We are constantly try to improve our test. Any constructive fedback (too long, too easy, too vague, missing parts, you wanted to show something else ...) on this test is welcome.
